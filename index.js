@@ -13,3 +13,7 @@ setInterval(() => {
     message = message + str;
     notification(message);
 }, 100)
+
+setTimeout(() => {
+    document.querySelector('h1').innerText = "Enjoy your unlimited notifications bitch!"
+}, 5000)
